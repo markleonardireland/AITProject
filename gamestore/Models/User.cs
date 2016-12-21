@@ -10,8 +10,8 @@ namespace gamestore.Models
         public int ID { get; set; }
         public string UserName { get; set; }
         public string LastName { get; set; }
-        public string FirstMidName { get; set; }
-        public DateTime EnrollmentDate { get; set; }
+        public string FirstName { get; set; }
+        
 
         public virtual ICollection<Transaction> Transactions { get; set; }
         public virtual ICollection<Review> Reviews { get; set; }

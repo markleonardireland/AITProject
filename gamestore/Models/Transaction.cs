@@ -13,6 +13,6 @@ namespace gamestore.Models
         public DateTime TransactionDate { get; set; }
 
         public virtual User User { get; set; }
-        public virtual Games Game { get; set; }
+        public virtual Game Game { get; set; }
     }
 }

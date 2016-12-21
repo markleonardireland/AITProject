@@ -1,4 +1,4 @@
-﻿using ContosoUniversity.Models;
+﻿using gamestore.Models;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 
@@ -12,8 +12,9 @@ namespace gamestore.DAL
         }
 
         public DbSet<User> Users { get; set; }
-        public DbSet<Enrollment> Enrollments { get; set; }
-        public DbSet<Course> Courses { get; set; }
+        public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<Game> Games { get; set; }
+        public DbSet<Review> Reviews { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

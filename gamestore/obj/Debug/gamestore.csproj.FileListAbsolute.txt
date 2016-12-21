@@ -51,3 +51,9 @@ C:\Users\Jack\Documents\code\markweb\gamestore\gamestore\bin\Newtonsoft.Json.xml
 C:\Users\Jack\Documents\code\markweb\gamestore\gamestore\obj\Debug\gamestore.csprojResolveAssemblyReference.cache
 C:\Users\Jack\Documents\code\markweb\gamestore\gamestore\obj\Debug\gamestore.dll
 C:\Users\Jack\Documents\code\markweb\gamestore\gamestore\obj\Debug\gamestore.pdb
+C:\Users\Jack\Documents\code\markweb\gamestore\gamestore\bin\EntityFramework.dll
+C:\Users\Jack\Documents\code\markweb\gamestore\gamestore\bin\EntityFramework.SqlServer.dll
+C:\Users\Jack\Documents\code\markweb\gamestore\gamestore\bin\EntityFramework.xml
+C:\Users\Jack\Documents\code\markweb\gamestore\gamestore\bin\EntityFramework.SqlServer.xml
+C:\Users\Jack\Documents\code\markweb\gamestore\gamestore\obj\Debug\gamestore.Migrations.Initial.resources
+C:\Users\Jack\Documents\code\markweb\gamestore\gamestore\obj\Debug\gamestore.csproj.GenerateResource.Cache
