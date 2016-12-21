@@ -10,7 +10,7 @@ namespace GameStore.Models
         public int ID { get; set; }
         public int UserID { get; set; }
         public int GameID { get; set; }
-        public string Title { get; set; }
+        public string Caption { get; set; }
         public string Content { get; set; }
         public int Phone { get; set; }
 

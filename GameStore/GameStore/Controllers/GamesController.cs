@@ -47,7 +47,7 @@ namespace GameStore.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Title,Price")] Game game)
+        public ActionResult Create([Bind(Include = "ID,Title,Price,ImageURL")] Game game)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +79,7 @@ namespace GameStore.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Title,Price")] Game game)
+        public ActionResult Edit([Bind(Include = "ID,Title,Price,ImageURL")] Game game)
         {
             if (ModelState.IsValid)
             {

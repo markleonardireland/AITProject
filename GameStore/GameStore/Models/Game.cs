@@ -9,6 +9,10 @@ namespace GameStore.Models
     {
         public int ID { get; set; }
         public string Title { get; set; }
-        public int Price { get; set; }
+        public float Price { get; set; }
+        public string ImageURL { get; set; }
+
+        public virtual ICollection<Transaction> Transactions { get; set; }
+        public virtual ICollection<Review> Reviews { get; set; }
     }
 }
