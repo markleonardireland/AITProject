@@ -158,6 +158,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\GamesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ReviewsController.cs" />
+    <Compile Include="Controllers\TransactionsController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="DAL\ShopContext.cs" />
     <Compile Include="DAL\ShopInitializer.cs" />
@@ -165,6 +167,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Game.cs" />
+    <Compile Include="Models\Review.cs" />
+    <Compile Include="Models\Transaction.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -218,6 +222,16 @@
     <Content Include="Views\Games\Details.cshtml" />
     <Content Include="Views\Games\Edit.cshtml" />
     <Content Include="Views\Games\Index.cshtml" />
+    <Content Include="Views\Reviews\Create.cshtml" />
+    <Content Include="Views\Reviews\Delete.cshtml" />
+    <Content Include="Views\Reviews\Details.cshtml" />
+    <Content Include="Views\Reviews\Edit.cshtml" />
+    <Content Include="Views\Reviews\Index.cshtml" />
+    <Content Include="Views\Transactions\Create.cshtml" />
+    <Content Include="Views\Transactions\Delete.cshtml" />
+    <Content Include="Views\Transactions\Details.cshtml" />
+    <Content Include="Views\Transactions\Edit.cshtml" />
+    <Content Include="Views\Transactions\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

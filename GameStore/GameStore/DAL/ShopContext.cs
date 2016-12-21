@@ -18,5 +18,9 @@ namespace GameStore.DAL
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
+
+        public System.Data.Entity.DbSet<GameStore.Models.Review> Reviews { get; set; }
+
+        public System.Data.Entity.DbSet<GameStore.Models.Transaction> Transactions { get; set; }
     }
 }
