@@ -3,29 +3,22 @@
 }
 
 <div class="jumbotron">
-    <h1>GameStore</h1>
-    <p class="lead">GameStore is the number 1 place where you can purchase all your favourite games!</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <h1>Welcome To GameStore!</h1>
+    <p class="lead">GameStore is the No.1 place where you can purchase all your favourite games!</p>
+    <p>@Html.ActionLink("View Games >", "Index", "Games", new { area = "" }, new { @class = "btn btn-primary btn-lg" })</p>
 </div>
 
 <div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
+    <div class="col-md-8">
+        <h2>Welcome to GameStore</h2>
         <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+            We are a new shop thats aimed at bringing you the latest games for XBOX, PS4 and PC.
         </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <h2>User Reviews</h2>
+        <p>Come and check out the latest reviews from our users.</p>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
+    
 </div>
